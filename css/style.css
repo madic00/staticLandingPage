@@ -254,8 +254,30 @@ footer li.tweet {
   color: #4e4e4e;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 
 /* MEDIA QUERIES  */
+
+@media (max-width: 600px) {
+
+    .topnav .right {
+        display: none;
+        transition: all 0.5s;
+    }
+
+    .mobile-links {
+        display: block !important;
+        float: none !important;
+    }
+
+    .logo {
+        margin-left: 0 !important;
+    }
+
+}
 
 @media screen and (max-width: 885px) {
   .footwrapper {
@@ -283,7 +305,7 @@ footer li.tweet {
   .work p {
     text-align: left;
   }
-  
+
 }
 
 @media screen and (max-width: 705px) {

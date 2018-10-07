@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PSD WEB</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -20,16 +21,16 @@
       <a href="#">Service</a>
       <a href="#">Features</a>
       <a href="#">Contact</a>
-    </div>  
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    </div>
+    <a href="javascript:void(0);" id="mobile-menu" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 
   <div id="hero">
     <div id="hero-text">
-      <h2>We are a digital & branding agency based in Amesterdam</h2>
-      <h3>We love to turn great ideas into beatufil products</h3>
+      <h2>We are a digital & branding agency based in Amsterdam</h2>
+      <h3>We love to turn great ideas into beautiful products</h3>
       <button> see portfolio</button>
     </div>
   </div>
@@ -64,7 +65,7 @@
   <main>
     <section class="latestWork">
       <h2>our latest works</h2>
-      
+
       <div class="works">
         <div class="work">
           <img src="img/thumb1.jpg" alt="">
@@ -93,7 +94,7 @@
 
     </section>
   </main>
-  
+
   <div id="quote">
     <center>
       <img src="img/quotes.png">
@@ -140,13 +141,16 @@
           <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</li>
         </ul>
       </div>
-    </div>  
+    </div>
 
-    <div class="copy">© 2018. Marble. Responsive website coded by <a href="https://www.github.com/madic00" target="_blank">MADIC</a></div>
+    <div class="copy">©  <?php echo date("Y"); ?>. Marble. Responsive website coded by <a href="https://www.github.com/madic00" target="_blank">MADIC</a></div>
 
   </footer>
 
-
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="script/app.js"></script>
 
 </body>
