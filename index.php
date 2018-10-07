@@ -22,7 +22,7 @@
       <a href="#">Features</a>
       <a href="#">Contact</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" id="mobile-menu" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
@@ -147,7 +147,10 @@
 
   </footer>
 
-
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="script/app.js"></script>
 
 </body>
