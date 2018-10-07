@@ -265,11 +265,16 @@ button:hover {
 
     .topnav .right {
         display: none;
+        transition: all 0.5s;
     }
 
     .mobile-links {
         display: block !important;
         float: none !important;
+    }
+
+    .logo {
+        margin-left: 0 !important;
     }
 
 }

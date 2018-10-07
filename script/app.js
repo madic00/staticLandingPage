@@ -8,6 +8,6 @@ function myFunction() {
 }
 
 $('#mobile-menu').on('click touchstart', function() {
-    $('.topnav .right').addClass('mobile-links');
+    $('.topnav .right').toggleClass('mobile-links');
     $(this).after($('.topnav .right'));
 });
