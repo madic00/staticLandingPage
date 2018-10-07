@@ -143,7 +143,7 @@
       </div>
     </div>
 
-    <div class="copy">© 2018. Marble. Responsive website coded by <a href="https://www.github.com/madic00" target="_blank">MADIC</a></div>
+    <div class="copy">©  <?php echo date("Y"); ?>. Marble. Responsive website coded by <a href="https://www.github.com/madic00" target="_blank">MADIC</a></div>
 
   </footer>
 
